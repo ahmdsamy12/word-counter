@@ -1,8 +1,14 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Word Counter Web Application
 
-Currently, two official plugins are available:
+This is a web application built using React that allows users to load .txt files from their desktop,
+display the contents on the screen, and calculate the count of repeated words within the loaded file.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- File upload functionality to select and load .txt files.
+- Display of the loaded file's content on the screen.
+- Word count analysis showing the occurrence of each repeated word in the loaded .txt file.
+- Responsive and reactive UI that updates dynamically without page reload.
+- Error handling for empty or unreadable files, with user-friendly error messages.
+- Logging functionality to track errors and events for debugging purposes.
